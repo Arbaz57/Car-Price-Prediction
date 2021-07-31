@@ -24,11 +24,35 @@ We have used various regression model to predict car price such as:
 
 ### Results:
 
-Huber regression RMSE = 252618 R2Score = 0.75
-
-RFG RMSE = 156862 R2Score = 0.90
-
-XGB RMSE = 1288374 R2Score = 0.94
+<div>
+        <table>
+            <caption>R2 Score for each models</caption>
+            <thead> 
+                <tr>
+                    <th>Model Name</th>
+                    <th>RMSE</th>
+                    <th>R2 Score</th>
+                </tr> 
+                <tr>
+                    <td>Hubber Regression</td>
+                    <td>252618</td>
+                    <td>0.75</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Random Forest Regressor</td>
+                    <td>156862</td>
+                    <td>0.90</td>
+                </tr>
+                <tr>
+                    <td>XGB</td>
+                    <td>1288374</td>
+                    <td>0.94</td>
+                </tr>
+            </tbody>
+        </table>
+</div>
 
 ### Conclusion:
 
